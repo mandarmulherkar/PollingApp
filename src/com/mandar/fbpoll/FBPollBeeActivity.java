@@ -15,7 +15,7 @@ public class FBPollBeeActivity extends Activity {
 
    int duration = Toast.LENGTH_SHORT;
 
-   Facebook facebook = new Facebook("258671337543411");
+   Facebook facebook = new Facebook("");
 
    @Override
    public void onCreate(Bundle savedInstanceState) {
