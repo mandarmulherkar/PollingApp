@@ -65,6 +65,8 @@ public class DashboardActivity extends Activity{
          public void onComplete(String response, Object state) {
             Log.v(TAG, ""+response);
             //{"name":"Mandar Mulherkar","id":"100003548002777","picture":"http:\/\/profile.ak.fbcdn.net\/static-ak\/rsrc.php\/v1\/yo\/r\/UlIqmHJn-SK.gif"}
+            
+            //TODO Use Jackson
             JSONObject jsonObject;
             try {
                jsonObject = new JSONObject(response);
